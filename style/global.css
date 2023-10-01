@@ -1,0 +1,71 @@
+@import url("var.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+
+.nav-item a {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.nav-item a:hover {
+  color: #1565d8;
+}
+
+.nav-item .active {
+  color: #1565d8 !important;
+}
+
+/* hero section */
+.hero-text {
+  color: var(--text-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+
+.hero-title {
+  color: var(--text-color);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px; /* 121.429% */
+  letter-spacing: 0.2px;
+}
+
+.hero-desc {
+  color: var(text-light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px -10px 35px 0px rgba(0, 0, 0, 0.03);
+}
+
+.btn-hero-section {
+  background-color: #1565d8 !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
